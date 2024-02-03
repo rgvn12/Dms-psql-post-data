@@ -12,12 +12,12 @@ Sequence, Foreign key, Index, and Constraint are available for migration.
 ## How to Run
 ### Setup
 ```sh
-git clone https://github.com/sinwoobang/dms-psql-post-data.git
+git clone https://github.com/rgvn12/dms-psql-post-data.git
 npm -i g zx
 ```
 
 ### Migrating Sequence
-1. Run [sequences_generator.sql](https://github.com/sinwoobang/dms-psql-post-data/blob/main/sequences_generator.sql) on your source DB.
+1. Run [sequences_generator.sql](https://github.com/rgvn12/rgvn12/blob/main/sequences_generator.sql) on your source DB.
 2. Copy the result and run it on the target DB.
 
 ### Migrating Index & Constraint
@@ -26,5 +26,5 @@ npm -i g zx
 cp info-template.js info.js
 ```
 2. Revise info.js
-3. zx [index_constraint_migration.mjs](https://github.com/sinwoobang/dms-psql-post-data/blob/main/index_constraint_migration.mjs)
+3. zx [index_constraint_migration.mjs](https://github.com/rgvn12/dms-psql-post-data/blob/main/index_constraint_migration.mjs)
 
