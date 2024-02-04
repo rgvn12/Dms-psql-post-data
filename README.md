@@ -17,8 +17,7 @@ npm -i g zx
 ```
 
 ### Migrating Sequence
-1. Run [sequences_generator.sql](https://github.com/rgvn12/Dms-psql-post-data
-/blob/main/sequences_generator.sql) on your source DB.
+1. Run [sequences_generator.sql](https://github.com/rgvn12/Dms-psql-post-data/blob/main/sequences_generator.sql) on your source DB.
 2. Copy the result and run it on the target DB.
 
 ### Migrating Index & Constraint
@@ -27,6 +26,5 @@ npm -i g zx
 cp info-template.js info.js
 ```
 2. Revise info.js
-3. zx [index_constraint_migration.mjs](https://github.com/rgvn12/Dms-psql-post-data
-/blob/8385687f0518ef3ab01d98e6a042fee42fe35c47/index_constraint_migration.mjs)
+3. zx [index_constraint_migration.mjs](https://github.com/rgvn12/Dms-psql-post-data/blob/8385687f0518ef3ab01d98e6a042fee42fe35c47/index_constraint_migration.mjs)
 
